@@ -1,4 +1,3 @@
-                   HuffCrate
                    
 HuffCrate is a file compression system developed in C++, employing the Huffman coding algorithm to achieve efficient 
 data compression. 
