@@ -9,7 +9,7 @@ using namespace std;
 
 struct Node {
     char ch;
-    int freq;
+    int freq; 
     Node *left, *right;
 };
 
@@ -27,6 +27,7 @@ Node* getNode(char ch, int freq, Node* left, Node* right) {
 struct comp {
     bool operator()(Node* l, Node* r) {
         // highest priority item has lowest frequency
+        //importent
         return l->freq > r->freq;
     }
 };
