@@ -4,7 +4,7 @@
 #include <queue>
 #include <unordered_map>
 #include <bitset>
-using namespace std;
+using namespace std
 
 
 struct Node {
